@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/all"
+            android:title="全部笔记" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            android:title="添加笔记" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="搜索笔记" />
+        <item
+            android:id="@+id/nav_lover"
+            android:icon="@drawable/lover"
+            android:title="另一半" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="关于我们" />
+
+    </group>
+
+
+
+</menu>
